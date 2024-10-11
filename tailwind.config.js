@@ -3,14 +3,15 @@ module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
       screens: {
-        // 'xs' : {'max' :  '576px'},
-        ss: '200px',
+        'xs' : {'max' :  '576px'},
+        
       },
       extend: {
       },
       colors:{
-        'blue': '#1fb6ff',
+        'pii': '#1fb6ff',
       },
     },
     plugins: [],
   }
+  
