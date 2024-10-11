@@ -726,39 +726,84 @@
       </div>
       <!-- contact and email form -->
       <div class="">
-        <div class="grid grid-cols-10">
+        <div class="grid lg:grid-cols-10 my-8 gap-5">
           <!-- number email location  -->
-          <div class="col-span-4 border rounded-lg p-10 space-y-5">
+          <div class=" lg:col-span-4 border rounded-lg lg:p-8 space-y-5 flex flex-col justify-center">
             <!-- Phone  -->
-            <div class="bg-[#BCED6D1a] rounded-lg p-8">
-              <img src="Images/call.png" alt="">
-              <p class="text-lg">Phone Number:</p>
-              <h4 class="text-2xl">
-                (+62) 111-333-777
-              </h4>
-
+            <div class="flex items-center justify-center">
+              <div class="w-1-64 bg-[#BCED6D1a] rounded-lg p-8">
+                <img src="Images/call.png" alt="">
+                <p class="text-lg">Phone Number:</p>
+                <h4 class="text-xl">
+                  (+62) 111-333-777
+                </h4>
+              </div>
             </div>
             <!-- Email -->
-            <div class="bg-[#FDDD5F1a] rounded-lg p-8">
-              <img src="Images/email.png" alt="">
-              <p class="text-lg">Email:</p>
-              <h4 class="text-2xl">
-                hockeys@support.com
-              </h4>
+            <div class="flex items-center justify-center">
+              <div class="w-64 bg-[#FDDD5F1a] rounded-lg p-8">
+                <img src="Images/email.png" alt="">
+                <p class="text-lg">Email:</p>
+                <h4 class="text-xl">
+                  hockeys@support.com
+                </h4>
+              </div>
             </div>
+
             <!-- GPS  -->
-            <div class="bg-[#629CF31a] rounded-lg p-8">
-              <img src="Images/gps.png" alt="">
-              <p class="text-lg">Location:</p>
-              <h4 class="text-2xl">
-                (+62) 111-333-777
-              </h4>
+            <div class="flex items-center justify-center">
+              <div class="w-64 bg-[#629CF31a] rounded-lg p-8">
+                <img src="Images/gps.png" alt="">
+                <p class="text-lg">Location:</p>
+                <h4 class="text-xl">
+                  (+62) 111-333-777
+                </h4>
+              </div>
             </div>
+
 
           </div>
-          <!-- send main form  -->
-          <div class="col-span-6">
-
+          <!--email sending form  -->
+          <div class="lg:col-span-6 justify-center items-center">
+            <!-- all label  -->
+            <div class="">
+              <div class="flex flex-col justify-center">
+                <div class="grid lg:grid-cols-2 grid-rows-7 gap-x-5 gap-y-3">
+                  <!-- label-1 -->
+                  <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                      <span class="label-text">What is your name</span>
+                    </div>
+                    <input type="text" placeholder="Enter Your Name" class="input input-bordered w-full max-w-xs" />
+                  </label>
+                  <!-- label-2 -->
+                  <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                      <span class="label-text">What is your Email</span>
+                    </div>
+                    <input type="text" placeholder="Enter Your Email" class="input input-bordered w-full max-w-xs" />
+                  </label>
+                  <!-- label-3 -->
+                  <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                      <span class="label-text">What is your Subject</span>
+                    </div>
+                    <input type="text" placeholder="Enter Your Subject" class="input input-bordered w-full max-w-xs" />
+                  </label>
+                  <!-- label-4 -->
+                  <label class="form-control w-full max-w-xs">
+                    <div class="label">
+                      <span class="label-text">What is your Number</span>
+                    </div>
+                    <input type="text" placeholder="Enter Your Number" class="input input-bordered w-full max-w-xs" />
+                  </label>
+                  <div class="col-span-2 row-span-3">
+                    <textarea placeholder="Mesage"
+                      class="textarea textarea-bordered textarea-lg w-full h-full"></textarea>
+                  </div>
+                </div>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -767,7 +812,9 @@
       <hr class=" border-2 border-t-0 border-l-0 border-r-0 border-dotted my-10">
     </div>
   </main>
-  <footer></footer>
+  <footer>
+    
+  </footer>
 
 </body>
 
